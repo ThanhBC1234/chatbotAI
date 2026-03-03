@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Hỏi-Đáp Môn Học</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div>
+          <h1>Chatbot Hỏi–Đáp Môn Học</h1>
+          <p class="sub">Gõ câu hỏi → AI trả lời trực tiếp trên web</p>
+        </div>
+        <div class="pill" id="modePill">MODE: ...</div>
+      </header>
+
+      <main class="chat" id="chat"></main>
+
+      <footer class="composer">
+        <input
+          id="q"
+          type="text"
+          placeholder="Ví dụ: Định luật II Newton là gì?"
+          autocomplete="off"
+        />
+        <button id="send">Gửi</button>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
